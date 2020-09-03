@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <main-header></main-header>
-    <router-view></router-view>
+    <router-view class="container"></router-view>
   </div>
 </template>
 
@@ -62,5 +62,14 @@ a {
 
 a.router-link-active {
   color: #4b8;
+}
+
+/* END GLOBAL STYLE */
+
+/* ROUTER VIEW */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 </style>
