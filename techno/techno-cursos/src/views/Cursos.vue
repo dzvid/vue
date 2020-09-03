@@ -2,7 +2,7 @@
   <div>
     <h1>Cursos</h1>
     <div v-if="loading">
-      <p>Carregando...</p>
+      <PageLoading />
     </div>
     <div v-if="api">
       <p>{{ api }}</p>
